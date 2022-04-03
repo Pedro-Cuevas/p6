@@ -1,0 +1,1 @@
+a la carpeta de la p6 hay que pegarle esta carpeta: https://github.com/gitt-3-pat/hello-world/tree/main/.github/workflows
