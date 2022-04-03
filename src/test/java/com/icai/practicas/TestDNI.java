@@ -28,6 +28,8 @@ public class TestDNI {
         assertEquals(false, test.validar());
         
         //FORMATO INCORRECTO
+        test = new DNI("71307593B"); //letra no correspondida con numeros
+        assertEquals(false, test.validar());
         test = new DNI("0020A0500"); //letras y numeros no correspondidos
         assertEquals(false, test.validar());
         test = new DNI("00#00@00T"); //caracteres no validos
